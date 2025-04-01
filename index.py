@@ -33,7 +33,7 @@ SERVICE_ACCOUNT_PATH = os.getenv('SERVICE_ACCOUNT_JSON')
 if not SERVICE_ACCOUNT_PATH or not os.path.exists(SERVICE_ACCOUNT_PATH):
     raise FileNotFoundError(
         f"Service account file not found at: {SERVICE_ACCOUNT_PATH}. "
-        "Check .env configuration.")
+        "Check .env_ configuration.")
 
 # Инициализация Google Calendar API с правильными scopes
 try:
