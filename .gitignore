@@ -160,3 +160,5 @@ cython_debug/
 .idea/
 .env/
 secret.py
+service-account.json
+*.db
